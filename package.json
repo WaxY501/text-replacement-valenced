@@ -1,0 +1,12 @@
+{
+  "name": "valenced-text-replacement-plugin",
+  "private": true,
+  "scripts": {
+    "build": "valenced-plugin build text-replacement"
+  },
+  "devDependencies": {
+    "@valenced/plugin-cli": "git+https://github.com/Valenced/valenced-plugin-cli.git",
+    "@valenced/types": "git+https://github.com/Valenced/valenced-types.git"
+  },
+  "type": "module"
+}

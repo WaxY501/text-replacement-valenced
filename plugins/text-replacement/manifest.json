@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "id": "dev.khopdi.text-replacement",
+  "name": "Text Replacement",
+  "author": "Khopdi Todo",
+  "description": "Expand shortcuts into replacement text when sending messages; manage shortcuts and import JSON/Gboard text exports.",
+  "version": "0.3.0",
+  "dependencies": {
+    "valenced.api": {
+      "version": ">=1"
+    },
+    "discord": {
+      "version": "*"
+    }
+  },
+  "dist": {
+    "script": "index.js"
+  }
+}
